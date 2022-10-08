@@ -744,7 +744,7 @@ class App {
     updateTitle(includeInput, input, changeUrl=true) {
         // Set title
         const recipeConfig = this.getRecipeConfig();
-        let title = "CyberChef";
+        let title = "Decrypter";
         if (recipeConfig.length === 1) {
             title = `${recipeConfig[0].op} - ${title}`;
         } else if (recipeConfig.length > 1) {
